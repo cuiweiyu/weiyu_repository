@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebc476a3-400b-4321-9c84-042c462568bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/LinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/NLinearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/VGG_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NPL/NplMain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NPL/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mnist/mnistTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mnist/mnist_Keras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mnist/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wind_speed_predict/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wind_speed_predict/LSTM/WS_LSTM_feature_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wind_speed_predict/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wind_speed_predict/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wind_speed_predict/LSTM/WS_LSTM_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wind_speed_predict/LSTM/WS_LSTM_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wind_speed_predict/data/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../wind_speed_predict/data/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator_data/my_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+            <state relative-caret-position="741">
+              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -36,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinearRegression/LinearRegression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="39">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -65,11 +56,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2483" />
+    <option name="y" value="89" />
     <option name="width" value="1864" />
-    <option name="height" value="1098" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -83,6 +74,11 @@
             <path>
               <item name="my_deep_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_deep_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_deep_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_deep_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="generator_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,17 +129,19 @@
       <option name="presentableId" value="Default" />
       <updated>1569045623900</updated>
       <workItem from="1569045625493" duration="321000" />
-      <workItem from="1569047146285" duration="702000" />
+      <workItem from="1569047146285" duration="777000" />
+      <workItem from="1569048881038" duration="1609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1023000" />
+    <option name="totallyTimeSpent" value="2707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1864" height="1098" extended-state="6" />
+    <frame x="-2483" y="89" width="1864" height="1092" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21620111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21955307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,20 +169,20 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generator_data/my_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinearRegression/LinearRegression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator_data/my_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

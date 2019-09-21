@@ -58,7 +58,7 @@ def read_era5(lon, lat):
 
     data = pd.concat([uv, pt], axis=1)
     data["speed"] = (data["u100m"] ** 2 + data["v100m"] ** 2) ** 0.5
-    data.to_excel(file_name)
+    # data.to_excel(file_name)
     return data
 
 
