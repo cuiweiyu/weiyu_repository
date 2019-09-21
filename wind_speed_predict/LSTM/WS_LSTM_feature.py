@@ -70,7 +70,7 @@ print(X.shape)
 print(Y_org.shape)
 
 model = build_model()
-history = model.fit(X, Y_org, epochs=2000, batch_size=5, verbose=2, validation_split=0.2)
+history = model.fit(X, Y_org, epochs=200, batch_size=5, verbose=2, validation_split=0.2)
 
 plt.plot(history.history['loss'][30:], label='loss')
 plt.plot(history.history['val_loss'][30:], label='val_loss')
