@@ -5,9 +5,8 @@ from keras.layers import Dense
 from keras.models import Sequential
 from keras.optimizers import SGD
 
-## 非线性回归
+# 非线性回归
 x_data = np.linspace(-1, 1, 200)  # 随机生成一堆数据
-
 noise = np.random.normal(0, 0.1, x_data.shape)  # 正态分布 生成 噪点
 y_data = np.square(x_data) + noise
 
